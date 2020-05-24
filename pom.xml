@@ -12,7 +12,7 @@
 
 	<groupId>com.ms</groupId>
 	<artifactId>movie-catalog-service</artifactId>
-	<version>0.1</version>
+	<version>test</version>
 	<name>movie-catalog-service</name>
 
 	<properties>
