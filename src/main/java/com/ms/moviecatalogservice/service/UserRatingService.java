@@ -13,7 +13,7 @@ public class UserRatingService {
     private RestTemplate restTemplate;
 
 
-    public UserRating getUserRating(@PathVariable("userId") String userId) {
-        return restTemplate.getForObject("http://ratings-data-service/ratings/users/"+userId, UserRating.class);
+    public UserRating getUserRating(int userId) {
+        return restTemplate.getForObject("http://ratings-data/ratings/users/"+userId, UserRating.class);
     }
 }

@@ -2,21 +2,21 @@ package com.ms.moviecatalogservice.model;
 
 public class Rating {
 
-    private String movieId;
+    private int movieId;
     private int rating;
 
     public Rating(){}
 
-    public Rating(String movieId, int rating) {
+    public Rating(int movieId, int rating) {
         this.movieId = movieId;
         this.rating = rating;
     }
 
-    public String getMovieId() {
+    public int getMovieId() {
         return movieId;
     }
 
-    public void setMovieId(String movieId) {
+    public void setMovieId(int movieId) {
         this.movieId = movieId;
     }
 

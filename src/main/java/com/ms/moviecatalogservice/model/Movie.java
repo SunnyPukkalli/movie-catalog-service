@@ -2,7 +2,7 @@ package com.ms.moviecatalogservice.model;
 
 public class Movie {
 
-    private String movieId;
+    private int movieId;
     private String name;
     private String desc;
 
@@ -10,17 +10,17 @@ public class Movie {
 
     }
 
-    public Movie(String movieId, String name, String desc) {
+    public Movie(int movieId, String name, String desc) {
         this.movieId = movieId;
         this.name = name;
         this.desc = desc;
     }
 
-    public String getMovieId() {
+    public int getMovieId() {
         return movieId;
     }
 
-    public void setMovieId(String movieId) {
+    public void setMovieId(int movieId) {
         this.movieId = movieId;
     }
 

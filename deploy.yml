@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: movie-info
-        image: 'gcr.io/favorable-iris-266409/movie-catalog:v1'
+        image: 'gcr.io/favorable-iris-266409/movie-catalog:eureka'
         ports:
         - containerPort: 8080
