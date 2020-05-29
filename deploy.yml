@@ -17,5 +17,8 @@ spec:
       containers:
       - name: movie-info
         image: 'gcr.io/favorable-iris-266409/movie-catalog:v1'
+        env:
+        - name: PROFILE
+          value: cloud
         ports:
         - containerPort: 8080
