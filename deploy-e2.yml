@@ -24,11 +24,11 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: urls
-              value: movie.info
+              key: movie.info
         - name: ratings.data
           valueFrom:
             configMapKeyRef:
               name: urls
-              value: ratings.data
+              key: ratings.data
         ports:
         - containerPort: 8080
