@@ -19,3 +19,9 @@
 |API                                |Description                        |
 |-----------------------------------|-----------------------------------|
 |**`/catalog/users/{userId}`**      |Get Ratings for movies watched by this user and based on ratings get Movie Info and return data|
+
+
+## API Exposed for image version : e2
+|API                                |Description                        |
+|-----------------------------------|-----------------------------------|
+|**`/catalog/users/{userId}`**      |Get Ratings for movies watched by this user and based on ratings get Movie Info and return data|
