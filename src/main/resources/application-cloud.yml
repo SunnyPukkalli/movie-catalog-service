@@ -1,3 +1,6 @@
+movie-info:
+ratings-data:
+
 server:
   port: 8080
 
