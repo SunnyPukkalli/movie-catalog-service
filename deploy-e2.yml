@@ -20,15 +20,15 @@ spec:
         env:
         - name: PROFILE
           value: cloud
-        - name: movie.info
+        - name: movie-info
           valueFrom:
             configMapKeyRef:
               name: urls
-              key: movie.info
-        - name: ratings.data
+              key: movie-info
+        - name: ratings-data
           valueFrom:
             configMapKeyRef:
               name: urls
-              key: ratings.data
+              key: ratings-data
         ports:
         - containerPort: 8080

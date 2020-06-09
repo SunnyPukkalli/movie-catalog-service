@@ -1,4 +1,4 @@
 Create configmap using command
 
 - Using literal :
-kubectl create configmap urls --from-literal=movie.info=http://movie-info/movies/v2/ --from-literal=ratings.data=http://ratings-data/ratings/users/
+kubectl create configmap urls --from-literal=movie-info=http://movie-info/movies/v2/ --from-literal=ratings-data=http://ratings-data/ratings/users/

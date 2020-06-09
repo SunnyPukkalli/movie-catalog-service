@@ -15,7 +15,7 @@ public class MovieInfoService {
 
     Logger logger = LoggerFactory.getLogger(MovieInfoService.class);
 
-    @Value("${movie.info:default}")
+    @Value("${movie-info:default}")
     private String MOVIE_INFO_URL;
 
     @Autowired
