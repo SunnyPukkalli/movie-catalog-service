@@ -14,7 +14,7 @@ public class UserRatingService {
 
     Logger logger = LoggerFactory.getLogger(UserRatingService.class);
 
-    @Value("${ratings-data:default}")
+    @Value("${ratings_data:default}")
     private String RATINGS_DATA_URL;
 
     @Autowired
